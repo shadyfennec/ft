@@ -1,0 +1,13 @@
+#+Title: ft: yes, another terminal emulator
+
+*ft* is a very, /very/ early prototype for a terminal emulator. If I don't
+abandon this project in the next 2 weeks, I hope to implement both
+ligatures (using the harbuzz engine) and true color support.
+
+* Compile
+To compile, run =make=.
+
+* Install (why would you do that ?!)
+To install, run =make install=. You may need to have elevated
+privileges. You can customize the installation directory with make's
+=DESTDIR= variable and by modifying the directories in config.mk.
