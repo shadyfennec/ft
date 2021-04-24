@@ -1,0 +1,44 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+#define COLOR_BLACK "#1d1f21"
+#define COLOR_RED "#cc342b"
+#define COLOR_GREEN "#198844"
+#define COLOR_YELLOW "#fba922"
+#define COLOR_BLUE "#3971ed"
+#define COLOR_MAGENTA "#a36ac7"
+#define COLOR_CYAN "#3971ed"
+#define COLOR_WHITE "#373b41"
+#define COLOR_INTENSE_BLACK "#989698"
+#define COLOR_INTENSE_RED "#cc342b"
+#define COLOR_INTENSE_GREEN "#198844"
+#define COLOR_INTENSE_YELLOW "#fba922"
+#define COLOR_INTENSE_BLUE "#3971ed"
+#define COLOR_INTENSE_MAGENTA "#a36ac7"
+#define COLOR_INTENSE_CYAN "#3971ed"
+#define COLOR_INTENSE_WHITE "#ffffff"
+#define COLOR_BG "#fafafa"
+#define COLOR_FG "#373b41"
+
+static const char* COLORS[] = {
+    COLOR_BLACK,
+    COLOR_RED,
+    COLOR_GREEN,
+    COLOR_YELLOW,
+    COLOR_BLUE,
+    COLOR_MAGENTA,
+    COLOR_CYAN,
+    COLOR_WHITE,
+    COLOR_INTENSE_BLACK,
+    COLOR_INTENSE_RED,
+    COLOR_INTENSE_GREEN,
+    COLOR_INTENSE_YELLOW,
+    COLOR_INTENSE_BLUE,
+    COLOR_INTENSE_MAGENTA,
+    COLOR_INTENSE_CYAN,
+    COLOR_INTENSE_WHITE,
+    COLOR_FG,
+    COLOR_BG,
+};
+
+#endif
